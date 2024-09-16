@@ -1,0 +1,16 @@
+.grade {
+    display: grid;
+    grid-template-areas: 
+    "border-top header header border"
+    "border-top header header border"
+    "border-bottom platforms posting-schedule border"
+    "border-bottom audience followers-grow followers-grow";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+}
+header {
+    grid-area: header;
+}
+footer#followers-grow {
+    grid-area: followers-grow ;
+}
